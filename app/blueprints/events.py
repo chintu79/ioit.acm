@@ -14,6 +14,7 @@ images = [
     "https://ioit.acm.org/tenet/mun/2024/7.jpeg",
     "https://ioit.acm.org/tenet/mun/2024/8.jpeg",
 ]
+
 images_2 = [
     "https://ioit.acm.org/tenet/mun/2024/9.jpeg",
     "https://ioit.acm.org/tenet/mun/2024/10.jpeg",
