@@ -110,17 +110,6 @@ def create_app():
 
     # Error Handlers
     @app.errorhandler(ProgrammingError)
-    def handle_programming_error(error):
-        return (
-            render_template(
-                "errors/sql_error.html",
-                message="There was an issue with the database operation.",
-                details=str(error),
-            ),
-            500,
-        )
-
-    @app.errorhandler(ProgrammingError)
     def handle_pending_rollback_error(error):
         return (
             render_template(
